@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		962CBC811C72596000316B18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962CBC801C72596000316B18 /* AppDelegate.swift */; };
-		962CBC831C72596000316B18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962CBC821C72596000316B18 /* ViewController.swift */; };
 		962CBC861C72596000316B18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962CBC841C72596000316B18 /* Main.storyboard */; };
 		962CBC881C72596000316B18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962CBC871C72596000316B18 /* Assets.xcassets */; };
 		962CBC8B1C72596000316B18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962CBC891C72596000316B18 /* LaunchScreen.storyboard */; };
 		962CBC961C72596000316B18 /* TourQueenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962CBC951C72596000316B18 /* TourQueenTests.swift */; };
 		962CBCA11C72596000316B18 /* TourQueenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962CBCA01C72596000316B18 /* TourQueenUITests.swift */; };
+		962CBCAF1C725B5000316B18 /* GPXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962CBCAE1C725B5000316B18 /* GPXViewController.swift */; };
+		962CBCB11C725B6200316B18 /* EditWaypointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962CBCB01C725B6200316B18 /* EditWaypointViewController.swift */; };
+		962CBCB31C725B7700316B18 /* GPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962CBCB21C725B7700316B18 /* GPX.swift */; };
+		962CBCB51C725B8000316B18 /* MKGPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962CBCB41C725B8000316B18 /* MKGPX.swift */; };
+		962CBCBB1C725BEC00316B18 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962CBCBA1C725BEC00316B18 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		962CBC7D1C72596000316B18 /* TourQueen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TourQueen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		962CBC801C72596000316B18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		962CBC821C72596000316B18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		962CBC851C72596000316B18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		962CBC871C72596000316B18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		962CBC8A1C72596000316B18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		962CBC9C1C72596000316B18 /* TourQueenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TourQueenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		962CBCA01C72596000316B18 /* TourQueenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourQueenUITests.swift; sourceTree = "<group>"; };
 		962CBCA21C72596000316B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		962CBCAE1C725B5000316B18 /* GPXViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPXViewController.swift; sourceTree = "<group>"; };
+		962CBCB01C725B6200316B18 /* EditWaypointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditWaypointViewController.swift; sourceTree = "<group>"; };
+		962CBCB21C725B7700316B18 /* GPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPX.swift; sourceTree = "<group>"; };
+		962CBCB41C725B8000316B18 /* MKGPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKGPX.swift; sourceTree = "<group>"; };
+		962CBCBA1C725BEC00316B18 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,10 @@
 		962CBC7F1C72596000316B18 /* TourQueen */ = {
 			isa = PBXGroup;
 			children = (
-				962CBC801C72596000316B18 /* AppDelegate.swift */,
-				962CBC821C72596000316B18 /* ViewController.swift */,
-				962CBC841C72596000316B18 /* Main.storyboard */,
-				962CBC871C72596000316B18 /* Assets.xcassets */,
-				962CBC891C72596000316B18 /* LaunchScreen.storyboard */,
-				962CBC8C1C72596000316B18 /* Info.plist */,
+				962CBCB71C725BAE00316B18 /* Controllers */,
+				962CBCB61C725B9F00316B18 /* Models */,
+				962CBCB81C725BBA00316B18 /* Views */,
+				962CBCB91C725BCE00316B18 /* Supporting Files */,
 			);
 			path = TourQueen;
 			sourceTree = "<group>";
@@ -123,6 +129,44 @@
 				962CBCA21C72596000316B18 /* Info.plist */,
 			);
 			path = TourQueenUITests;
+			sourceTree = "<group>";
+		};
+		962CBCB61C725B9F00316B18 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				962CBCB21C725B7700316B18 /* GPX.swift */,
+				962CBCB41C725B8000316B18 /* MKGPX.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		962CBCB71C725BAE00316B18 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				962CBCAE1C725B5000316B18 /* GPXViewController.swift */,
+				962CBCB01C725B6200316B18 /* EditWaypointViewController.swift */,
+				962CBCBA1C725BEC00316B18 /* ImageViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		962CBCB81C725BBA00316B18 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				962CBC841C72596000316B18 /* Main.storyboard */,
+				962CBC871C72596000316B18 /* Assets.xcassets */,
+				962CBC891C72596000316B18 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		962CBCB91C725BCE00316B18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				962CBC8C1C72596000316B18 /* Info.plist */,
+				962CBC801C72596000316B18 /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +300,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				962CBC831C72596000316B18 /* ViewController.swift in Sources */,
 				962CBC811C72596000316B18 /* AppDelegate.swift in Sources */,
+				962CBCB11C725B6200316B18 /* EditWaypointViewController.swift in Sources */,
+				962CBCAF1C725B5000316B18 /* GPXViewController.swift in Sources */,
+				962CBCB31C725B7700316B18 /* GPX.swift in Sources */,
+				962CBCBB1C725BEC00316B18 /* ImageViewController.swift in Sources */,
+				962CBCB51C725B8000316B18 /* MKGPX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
